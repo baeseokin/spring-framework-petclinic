@@ -405,7 +405,7 @@
                 </configuration>
             </plugin>
 
-            <plugin>
+            <!--<plugin>
                 <groupId>ro.isdc.wro4j</groupId>
                 <artifactId>wro4j-maven-plugin</artifactId>
                 <version>${wro4j.version}</version>
@@ -430,14 +430,14 @@
                         <artifactId>bootstrap</artifactId>
                         <version>${webjars-bootstrap.version}</version>
                     </dependency>
-                    <!-- Required for Java 9 and above -->
+                    &lt;!&ndash; Required for Java 9 and above &ndash;&gt;
                     <dependency>
                         <groupId>org.mockito</groupId>
                         <artifactId>mockito-core</artifactId>
                         <version>${mockito.version}</version>
                     </dependency>
                 </dependencies>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
